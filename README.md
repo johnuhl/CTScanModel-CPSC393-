@@ -1,6 +1,12 @@
 # CTScanModel-CPSC393-
 This is Ronan Walsh and John Uhl's CPSC 393 (Machine Learning) final project. This is CNN that takes in CT scans of brains, and was able to classify them at a high accuracy. 
 
+# Dataset Link
+
+Copy and paste this link to find the CT Scan data set we used from Kaggle:
+
+https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
+
 # 
 
 The overarching goal of this project is to create a convolutional neural network that is able to take in images of MRI scans and correctly identify whether if a patient has a tumor and if so what kind. Magnetic Resonance Imaging (MRI) scans use magnetic fields and radio waves to send pulses through the skull in order to gain high resolution images of the brain in multiple slices. Tumors, or abnormal cell growths, can form in the brain and, depending on what part of the brain it presses against, can greatly impact motor function or internal bodily systems. Glioma tumors, one of the categories in this dataset, grow on glial cells in the brain and cause symptoms ranging from mild headaches all the way to seizures and loss of language comprehension. These can be found usually along the central nervous system. Pituitary tumors, which can impact vision and disrupt hormones, grow on the pituitary gland which is located on the bottom of the brain. These tumors will look the same on their own and inherently are no different than eachother in composition, but their location dramatically changes what they do to the body. Accurately classifying tumors is extremely important therefore in understanding what is happening and even more important in being able to solve the issue. Hospitals may not always have access to the highest quality equipment for imaging, or could have staﬀing problems leading to an increased rate of human error. An accurate model would very easily be able to step in and be implemented as a cheaper, wholesale resolution to this problem globally for any hospital. As an additional layer, correctly classifying when a tumor is or is not present is monumental; a patient without a tumor who is falsey identifed as having one may go through rigorous treatment, or a patient with a tumor that is missed may suffer to the extent of death without help. It is extremely important to have an accurate and precise model, that is not just able to recognize the presence of a tumor but pinpoint where it is in order to avoid these problems.
